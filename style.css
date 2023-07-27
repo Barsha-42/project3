@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+nav a{
+    padding: 10px;
+    background-color: aliceblue;
+    color: black;
+    text-align: right;
+    margin: auto;
+    justify-content: space-between;
+
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    background-color: crimson;
+    color: white;
+
+}
+header{
+    line-height: normal;
+    padding: 300px;
+    margin: 10px;
+    
+    background-image: url('/image/graduation-07.jpg');
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    font-weight: 850;
+    
+    
+    
+}
+.row{
+    text-align: center;
+    color: blueviolet;
+    font-size: larger;
+    font-weight: 300;
+}

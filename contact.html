@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+           padding: 10px;
+            background-color: green;
+            color: white;
+            text-align: center;
+            border: 1px solid black;
+            margin: 0;
+             font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+        nav{
+            overflow: hidden;
+            background-color: red;
+        }
+    nav a {float: left;
+        color: aquamarine;
+        padding: 10px;
+        text-decoration: none;
+        }
+        nav a:hover{
+            background-color: black;
+            color: white;
+        }
+        
+        footer{
+        clear: both;
+        padding: 10px;
+            background-color: green;
+            color: white;
+            text-align: center;
+            border: 1px solid black;
+            margin: 0;
+        }
+        input[type =text],select,textarea{
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+        input[type=submit]{
+            background-color: brown;
+            color: black;
+            padding: 12px 20px;
+            cursor: pointer;
+            border:none;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>welcome to the official website of barsha acharya</h1>
+        <p>software and web developler</p>
+         </header>
+         <nav>
+             <a href="index.html">index</a>
+             <a href="gallery.html">gallery</a>
+             <a href="contact.html">contact</a>
+         </nav>
+         <div class="container">
+            <div style="text-align:center;">
+                <h2>contact me</h2>
+                <p>for more information  technology you can contact me</p>
+            </div>
+            <form action="index.php">
+                <label for="fname">first name:</label>
+                <input type="text"name="fname"id="fname">
+                <label for="lname">last name:</label>
+                <input type="text"name="lname"id="fname">  
+                <label for="country">country:</label>
+                <select id="country">
+                    <option >nepal</option>
+                    <option>canada</option>
+                </select>
+               
+               
+         </div>
+         <label for="feedback">feedback:</label>
+         <textarea id ="feedback" id="feedback" cols="20" rows="10"></textarea>
+         <input type="submit"name="submit">
+         <footer>
+            <p>
+                copyright &copy;@2020 barsha acharya
+            </p>
+         </footer>
+</body>
+</html>
